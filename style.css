@@ -1,0 +1,129 @@
+/* Reset style */
+* {
+    padding: 0;
+    margin: 0;
+   font-family: "Open Sans", sans-serif;
+}
+img {
+    max-width: 100%;
+}
+/* common style */
+.common-btn {
+    background-color: #fd6e0a;
+    padding: 10px 20px;
+    border-radius: 12px;
+    font-weight: bold;
+    font-size: 22px;
+    color: white;
+    boader:none;
+    cursor: pointer;
+}
+.outline-btn {
+    background-color: white;
+    padding: 10px 20px;
+    border-radius: 12px;
+    font-weight: bold;
+    font-size: 22px;
+    color: #fd6e0a;
+    boader: 1px solid #fd6e0a
+}
+.container{
+    max-width: 1200px;
+    margin: auto;
+}
+
+nav {
+    display:  flex;
+    justify-content: space-between;
+    padding: 12px 0;
+}
+.logo{
+    font-weight: bold;
+    font-size: 32px;
+}
+.logo-r{
+    color:#fd6e0a;
+}
+
+ul{
+    display:  flex;
+    justify-content: space-between;
+    list-style: none;
+    gap: 10px;
+    align-items: center;
+}
+ul li a{
+   text-decoration: none;
+}
+
+
+
+/* Hero section style */
+.hero-parent-root{
+    background-color: #fff8f3;
+}
+.hero-parent{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.hero-left p-1{
+    font-size: 28px;
+    font-weight: 600;
+}
+.hero-left h2{
+    font-weight: bold;
+    font-size: 40px;
+    margin-bottom: 12px;
+}
+.hero-left-btn-parent{
+      margin-top: 12px ;
+}
+
+
+/* About us css */
+.about-parent{
+    background-color: #fff8f3;
+    margin: 70px auto;
+    border-radius: 10px;
+    padding: 35px;
+    text-align: center;
+}
+.about-parent{
+    margin: 10px 0;
+}
+.about-box-parent{
+    display: flex;
+    justify-content: space-between;
+    gap: 8px;
+}
+.about-box-parent .box{
+    background-color: #918c89;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+/* what i do section css */
+.what_i_do_parent{
+    margin: 60px auto;
+    text-align: center;
+}
+.what-i-do-card-container{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    gap: 8PX;
+}
+.what-i-do-card-container .what-i-do-card{
+    border: 2px solid #fd6e0a;
+    border-radius: 10px;
+    text-align: left;
+}
+.what-i-do-card-container .what-i-do-card p{
+    color: #757575;
+    font-size: 15PX;
+}
+
+
+
+
